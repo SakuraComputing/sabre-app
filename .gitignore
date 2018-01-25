@@ -1,0 +1,8 @@
+.idea
+node_modules/*
+.iml
+*.log
+yarn.lock
+/public
+public/bundle.js
+coverage/

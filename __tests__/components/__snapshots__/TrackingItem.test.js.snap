@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when tracking item renders it should render a single record correctly 1`] = `
+<tr>
+  <td />
+  <td>
+    Thursday, January 1st 1970, 12:00:00 am
+  </td>
+  <td />
+  <td />
+  <td />
+</tr>
+`;

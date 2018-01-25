@@ -1,0 +1,29 @@
+{
+  "redeliveries":
+  [
+    {
+      "id": 1,
+      "parcelId": "JD0002256504047335",
+      "addressNo": 4,
+      "cardId": "56905948",
+      "latestScan": 1510911391000,
+      "requestDate": 1510904717073
+    },
+    {
+      "id": 2,
+      "parcelId": "JD0002256504047336",
+      "addressNo": 5,
+      "cardId": "56901208",
+      "latestScan":  1510912391000,
+      "requestDate": 1510904112073
+    },
+    {
+      "id": 3,
+      "parcelId": "JD0002256504047337",
+      "addressNo": 6,
+      "cardId": "",
+      "latestScan":  1510912497000,
+      "requestDate": 1510104717073
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when tracking history renders it should render a single record correctly 1`] = `
+<div>
+  <h3>
+    Parcel Tracking History
+  </h3>
+  <table
+    className="tracking-history"
+  >
+    <tbody>
+      <tr>
+        <th>
+          Status
+        </th>
+        <th>
+          Track Date
+        </th>
+        <th>
+          Service Centre
+        </th>
+        <th>
+          Tour
+        </th>
+        <th>
+          Comment
+        </th>
+      </tr>
+      <TrackingItem
+        comment="On the van"
+        key="5-11-2017"
+        parcelId="JD0002256504047335"
+        serviceCentre="Borehamwood"
+        status="Out for Delivery"
+        tour="BE45"
+        trackDate="5-11-2017"
+      />
+    </tbody>
+  </table>
+</div>
+`;

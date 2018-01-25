@@ -1,0 +1,26 @@
+{
+  "parcels":
+  [
+    {
+      "parcelId": "JD0002256504047335",
+      "addressNo": 1,
+      "serviceCode": "HOME24",
+      "latestScan": 1509494399,
+      "createdAt": 1506816000
+    },
+    {
+      "parcelId": "JD0002256504047000",
+      "addressNo": 2,
+      "serviceCode": "OS",
+      "latestScan": 2609494399,
+      "createdAt": 2606816000
+    },
+    {
+      "parcelId": "JD0002256504048000",
+      "addressNo": 3,
+      "serviceCode": "CP24",
+      "latestScan": 2609494399,
+      "createdAt": 2606816000
+    }
+  ]
+}

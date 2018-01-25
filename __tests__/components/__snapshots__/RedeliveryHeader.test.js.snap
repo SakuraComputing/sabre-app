@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redelivery Header should render the form correctly 1`] = `
+<div>
+  <form
+    className="select"
+  >
+    <p />
+    <p />
+    <label>
+      Card Id
+    </label>
+    <input
+      className="card-id"
+      id="cardId"
+      onChange={[Function]}
+      placeholder="Card Id"
+      type="text"
+      value=""
+    />
+    Parcel Id:
+    <input
+      className="parcel-id"
+      onChange={[Function]}
+      placeholder="Parcel Id"
+      type="text"
+      value=""
+    />
+    Request Date:
+    <input
+      className="request-start-date"
+      onChange={[Function]}
+      placeholder="Request Date"
+      type="date"
+    />
+    <input
+      className="request-end-date"
+      onChange={[Function]}
+      type="date"
+    />
+  </form>
+  <p />
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redelivery History should render the form correctly 1`] = `
+<header>
+  <h2>
+    Redeliveries
+  </h2>
+  <p />
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    to="/create"
+  >
+    Add Redelivery
+  </NavLink>
+  <div>
+    <Connect(RedeliveryHeader) />
+    <Connect(RedeliveryList) />
+  </div>
+</header>
+`;

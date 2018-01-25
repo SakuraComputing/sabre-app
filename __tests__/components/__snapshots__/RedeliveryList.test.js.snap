@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redelivery List Component should display no redeliveries when nothing is passed in 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <th>
+        Card Id
+      </th>
+      <th>
+        Parcel Id
+      </th>
+      <th>
+        Address
+      </th>
+      <th>
+        Latest Scan
+      </th>
+      <th>
+        Request Date
+      </th>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Redelivery List Component should render the form correctly 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <th>
+        Card Id
+      </th>
+      <th>
+        Parcel Id
+      </th>
+      <th>
+        Address
+      </th>
+      <th>
+        Latest Scan
+      </th>
+      <th>
+        Request Date
+      </th>
+    </tr>
+    <RedeliveryItem
+      addressNo={5}
+      cardId="876363"
+      id="1"
+      key="1"
+      latestScan={1262304000000}
+      parcelId="JD0002289756473452"
+      requestDate={1262304000000}
+    />
+    <RedeliveryItem
+      addressNo={6}
+      cardId="876002"
+      id="2"
+      key="2"
+      latestScan={1293840000000}
+      parcelId="JD0002289756470001"
+      requestDate={1293840000000}
+    />
+    <RedeliveryItem
+      addressNo={7}
+      cardId="376363"
+      id="3"
+      key="3"
+      latestScan={1325376000000}
+      parcelId="JD0002289756470005"
+      requestDate={1325376000000}
+    />
+  </tbody>
+</table>
+`;

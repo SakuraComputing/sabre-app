@@ -1,0 +1,21 @@
+{
+  "addresses": [{
+    "addressNo": 1,
+    "addressName": "Alex Delarge",
+    "addressLine1": "Broadmoor",
+    "addressLine2": "",
+    "town": "Crowthorne",
+    "county": "Berkshire",
+    "telephone": "01344 77 3111"
+  },
+    {
+      "addressNo": 2,
+      "addressName": "Randall Patrick MacMurphy",
+      "addressLine1": "Rampton",
+      "addressLine2": "Porchester Road",
+      "town": "",
+      "county": "Nottingham",
+      "telephone": "0115 969 1300"
+    }
+  ]
+}

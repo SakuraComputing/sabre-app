@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header correctly 1`] = `
+<div
+  className="menu-container"
+>
+  <Uncontrolled(Navbar)
+    bsStyle="default"
+    className="navbar navbar-default navbar-static-top"
+  >
+    <ul>
+      <li>
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          exact={true}
+          to="/"
+        >
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          to="/tracking"
+        >
+          Parcel Tracking
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          to="/redelivery"
+        >
+          Redelivery
+        </NavLink>
+      </li>
+    </ul>
+  </Uncontrolled(Navbar)>
+  <h1>
+    Yodel Web Portal
+  </h1>
+</div>
+`;

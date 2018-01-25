@@ -1,0 +1,14 @@
+import sinon from 'sinon';
+import {mount} from 'enzyme';
+import chai from 'chai';
+var expect = chai.expect;
+
+it('fires form submit', () => {
+   const doSignupForm = sinon.stub(SignUpForm.prototype, 'doSignupForm').returns(true);
+
+    const wrapper = mount(<SignUpForm />);
+    wrapper.find('#register_button').get(0).click();
+    expect(doSignupForm).to.have.been.called;
+    doSignupForm.restore();
+
+});

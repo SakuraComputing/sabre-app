@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redelivery Item Component should render the form correctly 1`] = `
+<tr
+  className="redelivery-item"
+>
+  <td>
+    <NavLink
+      activeClassName="is-active"
+      ariaCurrent="true"
+      to="/redelivery/undefined"
+    />
+  </td>
+  <td />
+  <td />
+  <td>
+    Thursday, January 1st 1970, 12:00:00 am
+  </td>
+  <td>
+    Thursday, January 1st 1970, 12:00:00 am
+  </td>
+</tr>
+`;

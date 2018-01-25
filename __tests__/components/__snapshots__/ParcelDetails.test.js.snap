@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parcel details should render parcel and address 1`] = `
+<table
+  className="parcel-details"
+  frameBorder="1"
+>
+  <tbody>
+    <tr>
+      Address:
+    </tr>
+    <tr
+      className="address-details"
+    >
+      <Address
+        address={
+          Object {
+            "addressLine1": "Broadmoor",
+            "addressLine2": "",
+            "addressName": "Alex Delarge",
+            "addressNo": 1,
+            "county": "Berkshire",
+            "telephone": "01344 77 3111",
+            "town": "Crowthorne",
+          }
+        }
+      />
+    </tr>
+    <tr>
+      Service Code: 
+      HOME24
+    </tr>
+  </tbody>
+</table>
+`;

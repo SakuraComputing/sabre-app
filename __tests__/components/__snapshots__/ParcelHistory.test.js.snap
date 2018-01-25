@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ParcelHistoryTests should render Parcel History correctly 1`] = `
+<div>
+  <form
+    className="quick-form"
+    onSubmit={[Function]}
+  >
+    <h2>
+      Parcel History
+    </h2>
+    <div
+      className="search-bar"
+    >
+      Parcel Id:
+      <input
+        id="parcelId"
+        name="parcelId"
+        onChange={[Function]}
+        placeholder="Parcel Id"
+        value=""
+      />
+      <button
+        className="submit-button"
+      >
+        Search
+      </button>
+      <button
+        className="clear-button"
+        onClick={[Function]}
+        type="reset"
+      >
+        Clear Search
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`ParcelHistoryTests should return an error when no parcel number is entered 1`] = `
+<div>
+  <form
+    className="quick-form"
+    onSubmit={[Function]}
+  >
+    <h2>
+      Parcel History
+    </h2>
+    <div
+      className="search-bar"
+    >
+      Parcel Id:
+      <input
+        id="parcelId"
+        name="parcelId"
+        onChange={[Function]}
+        placeholder="Parcel Id"
+        value=""
+      />
+      <button
+        className="submit-button"
+      >
+        Search
+      </button>
+      <button
+        className="clear-button"
+        onClick={[Function]}
+        type="reset"
+      >
+        Clear Search
+      </button>
+    </div>
+  </form>
+  <div
+    className="error-message"
+  >
+    Please provide a parcel Id
+  </div>
+</div>
+`;

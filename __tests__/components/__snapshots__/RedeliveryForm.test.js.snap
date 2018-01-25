@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redelivery Form Form inputs should render the form correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="card-id"
+      onChange={[Function]}
+      placeholder="Card Id"
+      type="text"
+      value=""
+    />
+    <input
+      className="parcel-id"
+      onChange={[Function]}
+      placeholder="Parcel Id"
+      type="text"
+      value=""
+    />
+    <input
+      className="latest-scan"
+      onChange={[Function]}
+      placeholder="Latest Scan"
+      type="date"
+    />
+    <input
+      className="request-date"
+      onChange={[Function]}
+      placeholder="Request Date"
+      type="date"
+    />
+    <button>
+      Save Redelivery
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Redelivery Form should render the form with data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="card-id"
+      onChange={[Function]}
+      placeholder="Card Id"
+      type="text"
+      value="876363"
+    />
+    <input
+      className="parcel-id"
+      onChange={[Function]}
+      placeholder="Parcel Id"
+      type="text"
+      value="JD0002289756473452"
+    />
+    <input
+      className="latest-scan"
+      onChange={[Function]}
+      placeholder="Latest Scan"
+      type="date"
+      value="2010-01-01"
+    />
+    <input
+      className="request-date"
+      onChange={[Function]}
+      placeholder="Request Date"
+      type="date"
+      value="2010-01-01"
+    />
+    <button>
+      Save Redelivery
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Redelivery Form when the form is submitted should render an error when for an invalid form submission 1`] = `
+<div>
+  <div>
+    A parcel or card id must be input
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="card-id"
+      onChange={[Function]}
+      placeholder="Card Id"
+      type="text"
+      value=""
+    />
+    <input
+      className="parcel-id"
+      onChange={[Function]}
+      placeholder="Parcel Id"
+      type="text"
+      value=""
+    />
+    <input
+      className="latest-scan"
+      onChange={[Function]}
+      placeholder="Latest Scan"
+      type="date"
+    />
+    <input
+      className="request-date"
+      onChange={[Function]}
+      placeholder="Request Date"
+      type="date"
+    />
+    <button>
+      Save Redelivery
+    </button>
+  </form>
+</div>
+`;

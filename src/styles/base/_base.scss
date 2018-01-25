@@ -1,0 +1,104 @@
+// rem
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvitica, Arial, sans-serif;
+  font-size: $m-size;
+  background: $yodel-grey2;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+button {
+  cursor: pointer;
+  color: dimgray;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+h1 {
+  color: $yodel-green3;
+  background: $yodel-black;
+  align-content: center;
+  border-bottom-color: #004444;
+  text-align: center;
+  font-size: 250%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 0.1%;
+}
+
+h2 {
+  color: $yodel-green3;
+  background: $yodel-grey2;
+}
+
+input {
+  border-bottom-color: $yodel-grey3;
+  border-top-color: $yodel-grey3;
+  border-left-color: $yodel-grey3;
+  border-right-color: $yodel-grey3;
+  padding-bottom: .1%;
+  padding-top: .1%;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $yodel-green3;
+  color: white;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.address-panel {
+
+}
+
+.menu-container {
+  background-color: $yodel-grey2;
+  //padding: 14px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $yodel-black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.yodel.icon > li {
+  color: $yodel-green3;
+  font-size: 2.2em;
+  margin: 2px 0px 0px 0px;
+  position: absolute;
+  left: 50px;
+}
+

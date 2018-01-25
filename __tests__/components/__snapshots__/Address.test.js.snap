@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address component should render correctly 1`] = `
+<table
+  className="address-panel"
+>
+  <tbody>
+    <tr>
+      Alex Delarge
+    </tr>
+    <tr>
+      Broadmoor
+    </tr>
+    <tr />
+    <tr>
+      Crowthorne
+    </tr>
+    <tr>
+      Berkshire
+    </tr>
+    <tr>
+      01344 77 3111
+    </tr>
+  </tbody>
+</table>
+`;
